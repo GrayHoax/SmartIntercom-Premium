@@ -1,0 +1,103 @@
+#######################################
+# SmartIntercom Library Keywords
+# Ключевые слова для библиотеки SmartIntercom
+#######################################
+
+#######################################
+# SmartIntercom Datatypes (KEYWORD1)
+#######################################
+
+SmartIntercom	KEYWORD1
+SmartIntercomGPIO	KEYWORD1
+SmartIntercomRing	KEYWORD1
+SmartIntercomDoor	KEYWORD1
+SmartIntercomConfig	KEYWORD1
+SmartIntercomGPIOMode	KEYWORD1
+SmartIntercomDeviceState	KEYWORD1
+SmartIntercomEventType	KEYWORD1
+SmartIntercomCallback	KEYWORD1
+
+#######################################
+# SmartIntercom Methods (KEYWORD2)
+#######################################
+
+smartIntercomBegin	KEYWORD2
+smartIntercomBeginDefault	KEYWORD2
+smartIntercomUpdate	KEYWORD2
+smartIntercomLoop	KEYWORD2
+smartIntercomOpenDoor	KEYWORD2
+smartIntercomOpenDoorDelayed	KEYWORD2
+smartIntercomCloseDoor	KEYWORD2
+smartIntercomEnableAutoOpen	KEYWORD2
+smartIntercomDisableAutoOpen	KEYWORD2
+smartIntercomToggleAutoOpen	KEYWORD2
+smartIntercomEnableAlwaysOpen	KEYWORD2
+smartIntercomDisableAlwaysOpen	KEYWORD2
+smartIntercomPickupHandset	KEYWORD2
+smartIntercomHangupHandset	KEYWORD2
+smartIntercomToggleHandset	KEYWORD2
+smartIntercomLEDOn	KEYWORD2
+smartIntercomLEDOff	KEYWORD2
+smartIntercomLEDBlink	KEYWORD2
+smartIntercomLEDSetBrightness	KEYWORD2
+smartIntercomGetState	KEYWORD2
+smartIntercomGetStateName	KEYWORD2
+smartIntercomIsReady	KEYWORD2
+smartIntercomSetConfig	KEYWORD2
+smartIntercomGetConfig	KEYWORD2
+smartIntercomSetOpenDelay	KEYWORD2
+smartIntercomSetOpenTime	KEYWORD2
+smartIntercomSetEventCallback	KEYWORD2
+smartIntercomGetVersion	KEYWORD2
+smartIntercomGetName	KEYWORD2
+smartIntercomReset	KEYWORD2
+smartIntercomSetHigh	KEYWORD2
+smartIntercomSetLow	KEYWORD2
+smartIntercomSetState	KEYWORD2
+smartIntercomToggle	KEYWORD2
+smartIntercomPulse	KEYWORD2
+smartIntercomPulsePattern	KEYWORD2
+smartIntercomSetPWM	KEYWORD2
+smartIntercomFade	KEYWORD2
+smartIntercomBlink	KEYWORD2
+smartIntercomBlinkPattern	KEYWORD2
+smartIntercomGetState	KEYWORD2
+smartIntercomReadAnalog	KEYWORD2
+smartIntercomSetDebounce	KEYWORD2
+smartIntercomSetMode	KEYWORD2
+smartIntercomCheck	KEYWORD2
+smartIntercomIsRinging	KEYWORD2
+smartIntercomGetDuration	KEYWORD2
+smartIntercomGetCount	KEYWORD2
+smartIntercomSetThreshold	KEYWORD2
+smartIntercomOpen	KEYWORD2
+smartIntercomClose	KEYWORD2
+smartIntercomCheckState	KEYWORD2
+
+#######################################
+# SmartIntercom Constants (LITERAL1)
+#######################################
+
+SMARTINTERCOM_VERSION	LITERAL1
+SMARTINTERCOM_LIB_VERSION	LITERAL1
+SMARTINTERCOM_LIB_NAME	LITERAL1
+SMARTINTERCOM_DEFAULT_OPEN_TIME	LITERAL1
+SMARTINTERCOM_DEFAULT_DEBOUNCE	LITERAL1
+SMARTINTERCOM_DEFAULT_RING_TIMEOUT	LITERAL1
+SMARTINTERCOM_MODE_NORMAL	LITERAL1
+SMARTINTERCOM_MODE_INVERTED	LITERAL1
+SMARTINTERCOM_MODE_PWM	LITERAL1
+SMARTINTERCOM_MODE_PULSE	LITERAL1
+SMARTINTERCOM_STATE_INIT	LITERAL1
+SMARTINTERCOM_STATE_READY	LITERAL1
+SMARTINTERCOM_STATE_IDLE	LITERAL1
+SMARTINTERCOM_STATE_RINGING	LITERAL1
+SMARTINTERCOM_STATE_OPENING	LITERAL1
+SMARTINTERCOM_STATE_OPEN	LITERAL1
+SMARTINTERCOM_STATE_CLOSING	LITERAL1
+SMARTINTERCOM_STATE_ERROR	LITERAL1
+SMARTINTERCOM_EVENT_RING	LITERAL1
+SMARTINTERCOM_EVENT_OPEN	LITERAL1
+SMARTINTERCOM_EVENT_CLOSE	LITERAL1
+SMARTINTERCOM_EVENT_ERROR	LITERAL1
+SMARTINTERCOM_EVENT_CONFIG	LITERAL1
