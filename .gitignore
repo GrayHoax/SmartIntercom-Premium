@@ -1,0 +1,74 @@
+# SmartIntercom Premium .gitignore
+# Игнорируемые файлы для SmartIntercom
+
+# SmartIntercom Configuration
+config.h
+secrets.h
+
+# SmartIntercom IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# SmartIntercom Build files
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+
+# SmartIntercom Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# SmartIntercom OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# SmartIntercom Arduino build directory
+build/
+*.build/
+
+# SmartIntercom PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# SmartIntercom Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# SmartIntercom Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# SmartIntercom Logs
+*.log
+logs/
+
+# SmartIntercom Documentation build
+docs/_build/
+site/
+
+# SmartIntercom Certificates and keys
+*.pem
+*.key
+*.crt
+*.p12
+
+# SmartIntercom Backup files
+backup/
+*.backup
+
+# SmartIntercom Test files
+test_results/
+coverage/
